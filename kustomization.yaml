@@ -1,4 +1,6 @@
 namespace: team1
+resources:
+  - mysealedsecret.yaml
 bases:
   - ./workloads/frontend/
   - ./workloads/backend/
